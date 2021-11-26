@@ -738,5 +738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b00a2c1e7293146835664d7602c803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPositionOffset: {x: 0, y: 0, z: 0}
-  playerRotation: {x: 0, y: 0, z: 0}
+  playerPositionOffset: {x: -2, y: -1.2, z: 4}
+  playerRotation: {x: 0, y: 90, z: 0}
+  xRotationClamp: {x: -20, y: 50}
+  yRotationClamp: {x: 60, y: 120}
