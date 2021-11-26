@@ -3,7 +3,12 @@ guid: 6705843d1e275d34e9b1179f1a9fe23b
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChocolatechipCookieM
+    second: {fileID: 2100000, guid: 9ee4a5f34028055428299477e3cb8d30, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
