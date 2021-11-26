@@ -649,8 +649,6 @@ GameObject:
   - component: {fileID: 8947898338542756635}
   - component: {fileID: 5441062709311909054}
   - component: {fileID: 7811070229604849780}
-  - component: {fileID: 6606657093427932861}
-  - component: {fileID: 7776199742625488019}
   m_Layer: 0
   m_Name: Oven
   m_TagString: Untagged
@@ -727,28 +725,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6606657093427932861
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8603707680669202849}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.0054332, y: 1.4181248, z: 1.4512036}
-  m_Center: {x: -0.5027166, y: 0.7090624, z: 4}
---- !u!114 &7776199742625488019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8603707680669202849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03b00a2c1e7293146835664d7602c803, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
