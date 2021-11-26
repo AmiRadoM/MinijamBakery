@@ -8,6 +8,9 @@ public class MouseLook : MonoBehaviour
 
     public Transform playerTransform;
 
+    public Vector2 xRotationClamp = new Vector2(-90f, 90f);
+    public Vector2 yRotationClamp = new Vector2(-360,360);
+
     float xRotation;
 
     // Start is called before the first frame update
@@ -23,9 +26,10 @@ public class MouseLook : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        xRotation = Mathf.Clamp(xRotation, xRotationClamp.x, xRotationClamp.y);
 
         transform.localRotation = Quaternion.Euler(xRotation, transform.localRotation.y , transform.localRotation.z);
         playerTransform.Rotate(playerTransform.up * mouseX, Space.World);
+        playerTransform.eulerAngles = new Vector3(playerTransform.eulerAngles.x, Mathf.Clamp(playerTransform.eulerAngles.y, yRotationClamp.x, yRotationClamp.y), playerTransform.eulerAngles.z);
     }
 }
