@@ -1,18 +1,16 @@
 fileFormatVersion: 2
-guid: 83eb4048fbe4e4e4a86c2a9cd9dee5d1
+guid: 1ebb1dc68d68bdb42a083b43addd5480
 ModelImporter:
   serializedVersion: 20101
-  internalIDToNameTable: []
-  externalObjects:
+  internalIDToNameTable:
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ChocolatechipCookieM
-    second: {fileID: 2100000, guid: 9ee4a5f34028055428299477e3cb8d30, type: 2}
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects: {}
   materials:
     materialImportMode: 1
-    materialName: 1
-    materialSearch: 2
+    materialName: 0
+    materialSearch: 1
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
