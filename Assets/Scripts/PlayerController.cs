@@ -15,7 +15,8 @@ public class PlayerController : MonoBehaviour
 			print("A");
 			if(Physics.Raycast(camera.transform.position, camera.transform.forward, out hit, 100, InteractableLayers))
 			{
-				transform.position = hit.transform.position + hit.transform.GetComponentInParent<Interactable>().playerPositionOffset;
+				GameObject oven = hit.transform.GetComponentInParent<Interactable>().gameObject;
+				transform.position = oven.transform.position + hit.transform.GetComponentInParent<Interactable>().playerPositionOffset;
 				transform.eulerAngles = hit.transform.GetComponentInParent<Interactable>().playerRotation;
 			}
 		}

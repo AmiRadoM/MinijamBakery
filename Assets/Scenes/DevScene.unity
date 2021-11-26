@@ -187,6 +187,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 382541062791674765, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147234826475276792, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1375427633038090353, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
       propertyPath: m_Name
       value: Foodtruck
@@ -234,6 +242,46 @@ PrefabInstance:
     - target: {fileID: 1375427633038090358, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776254961694037549, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
+      propertyPath: playerPositionOffset.y
+      value: -1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776254961694037549, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
+      propertyPath: playerPositionOffset.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776254961694037549, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
+      propertyPath: playerRotation.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776254961694037549, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
+      propertyPath: playerPositionOffset.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294559772255432010, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2753874932480543030, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7394076729339029385, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733247380124336102, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305480205540286326, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8425644557814064674, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d14cc15ed45026943ab744236b6984a1, type: 3}
